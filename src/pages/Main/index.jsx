@@ -17,9 +17,7 @@ const Main = () => {
                 <MainButton onClick={onClickBtn}>
                     테스트 시작하기
                 </MainButton>
-                <MainButton onClick={onClickBtn}>
-                    테스트 시작하기 2
-                </MainButton>
+
             </MainBox>
         </>
     )
