@@ -7,6 +7,7 @@ export const MainBox = styled.div`
     margin: 0 auto;
     width: 500px;
     margin-top: 5rem;
+    margin-bottom: 5rem;
     max-width: 100%;
     & > img {
         vertical-align: middle;
