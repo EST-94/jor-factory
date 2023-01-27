@@ -1,11 +1,11 @@
 import React from "react";
-import QuestionDummy from "../../components/Question/QuestionDummy";
+import Questions from "../../components/Questions/QuestionsList";
 
 
 const Test1 = () => {
     return (
         <>
-            <QuestionDummy />
+            <Questions />
         </>
     );
 }

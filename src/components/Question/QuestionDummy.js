@@ -1,53 +1,47 @@
+import classes from "./QuestionDummy.module.css"
 import React from "react";
 import Questions from "../Questions/QuestionsList";
 import Card from "../../UI/Card";
-import classes from "./QuestionDummy.module.css";
 
-
-const DUMMY_Q = [
+export const questionLists = [
     {
-        id: "Q1",
-        mainQ: '집에서 쉬고 있는데 친구가 나오라고 한다면?',
-        btn1: '심심해서 나간다',
-        btn2: '집에서 쉬는게 좋다',
+        id: '0',
+        question: 'E/I질문1',
+        selection: [
+            { answer: '새로운 사람들과 친해지려고 노력한다', value: 'e' },
+            { answer: '아는 사람과 깊게 친해지려고 노력한다', value: 'i' }
+        ]
     },
     {
-        id: "Q2",
-        mainQ: '쓸데없는 선물주기 하자 내 마음은?',
-        btn1: '선물을 떠올림',
-        btn2: '쓸데없는걸 굳이..',
+        id: '1',
+        question: 'E/I질문2',
+        selection: [
+            { answer: '새로운 사람들과 친해지려고 노력한다', value: 'e' },
+            { answer: '아는 사람과 깊게 친해지려고 노력한다', value: 'i' }
+        ]
     },
     {
-        id: "Q3",
-        mainQ: '집에서 쉬고 있는데 친구가 나오라고 한다면?',
-        btn1: '심심해서 나간다',
-        btn2: '집에서 쉬는게 좋다',
+        id: '2',
+        question: 'E/I질문3',
+        selection: [
+            { answer: '새로운 사람들과 친해지려고 노력한다', value: 'e' },
+            { answer: '아는 사람과 깊게 친해지려고 노력한다', value: 'i' }
+        ]
     },
     {
-        id: "Q4",
-        mainQ: '집에서 쉬고 있는데 친구가 나오라고 한다면?',
-        btn1: '심심해서 나간다',
-        btn2: '집에서 쉬는게 좋다',
+        id: '3',
+        question: 's/n질문1',
+        selection: [
+            { answer: '새로운 사람들과 친해지려고 노력한다', value: 's' },
+            { answer: '아는 사람과 깊게 친해지려고 노력한다', value: 'n' }
+        ]
     },
-];
-
-const Question = () => {
-    const questionList = DUMMY_Q.map((Q) => (
-        <Questions
-            id={Q.id}
-            key={Q.id}
-            mainQ={Q.mainQ}
-            btn1={Q.btn1}
-            btn2={Q.btn2}
-        />
-    ));
-    return (
-        <section className={classes.QuestionSection}>
-            <Card>
-                <ul>{questionList}</ul>
-            </Card>
-        </section>
-    )
-};
-
-export default Question;
+    {
+        id: '4',
+        question: 's/n질문2',
+        selection: [
+            { answer: '새로운 사람들과 친해지려고 노력한다', value: 's' },
+            { answer: '아는 사람과 깊게 친해지려고 노력한다', value: 'n' }
+        ]
+    },
+]
