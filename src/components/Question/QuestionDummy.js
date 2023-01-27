@@ -1,7 +1,4 @@
-import classes from "./QuestionDummy.module.css"
-import React from "react";
-import Questions from "../Questions/QuestionsList";
-import Card from "../../UI/Card";
+
 
 export const questionLists = [
     {

@@ -2,9 +2,6 @@ import React, { useCallback, useState } from "react";
 import classes from "./QuestionsList.module.css";
 import { questionLists } from "../Question/QuestionDummy";
 
-
-
-
 const Questions = ({ ...props }) => {
     const [question, setQuestion] = useState(0);
     const [answer, setAnswer] = useState([]);
