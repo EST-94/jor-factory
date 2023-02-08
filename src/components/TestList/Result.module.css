@@ -1,0 +1,57 @@
+.Mainbox {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    max-width: 90%;
+}
+
+.Mainbox .img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.ad {
+    background-color: gray;
+    width: 70%;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+.boxarea {
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.kakao {
+    background-color: #EEC50C;
+    border-radius: 10px 10px;
+    width: 70%;
+    height: 50px;
+    border: none;
+    color: white;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-bottom: 3%;
+    font-weight: 0.8rem;
+}
+
+.again {
+    background-color: rgb(241, 119, 139);
+    border-radius: 10px 10px;
+    width: 70%;
+    height: 50px;
+    border: none;
+    color: white;
+    margin: 0 auto;
+    cursor: pointer;
+    font-weight: 0.8rem;
+    margin-bottom: 10%;
+}
