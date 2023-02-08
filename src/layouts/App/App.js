@@ -10,6 +10,7 @@ const Test1 = loadable(() => import('../../pages/Test1'));
 const Result = loadable(() => import('../../pages/Result'));
 
 
+
 function App() {
   return (
     <>
@@ -17,7 +18,7 @@ function App() {
         <Redirect exact path="/" to="/main" />
         <Route exact path="/main" component={Main} />
         <Route exact path="/test1" component={Test1} />
-        <Route exact path="/result" component={Result} />
+        <Route exact path="/result/:resultmbti" component={Result} />
       </Switch>
 
     </>
