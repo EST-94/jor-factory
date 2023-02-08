@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import KakaoShareButton from './kakaoShareButton'
+import KakaoShareButton from "../KakaoShareButton";
 
 const ShareButtons = () => {
   return (

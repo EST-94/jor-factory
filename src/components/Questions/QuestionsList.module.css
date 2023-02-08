@@ -26,15 +26,10 @@
      margin-top: 3%;
  }
 
- /* .hide {
+ .hide {
      display: none;
- } */
-
- .result {
-     /* display: none; */
-     width: 20%;
-     background-color: skyblue;
  }
+
 
  .ad {
      background-color: gray;

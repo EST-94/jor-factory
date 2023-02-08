@@ -1,10 +1,10 @@
-import React, { useCallback, useState, useEffect } from "react";
+import React, { useState } from "react";
 import classes from "./QuestionsList.module.css";
 import { questionLists } from "../Question/QuestionDummy";
 import { useHistory } from "react-router-dom";
 
 
-const Questions = ({ ...props }) => {
+const Questions = () => {
     const [question, setQuestion] = useState(0);
     const [answer, setAnswer] = useState([]);
     const history = useHistory();
@@ -44,7 +44,7 @@ const Questions = ({ ...props }) => {
     //결과 출력 함수
     const ShowResult = () => {
 
-        history.push(`/result`);
+        history.push(`/result/${resultmbti.result}`);
     }
 
     //질문선택 12개 다 하면 결과창 렌더링
@@ -63,7 +63,7 @@ const Questions = ({ ...props }) => {
             <div className={classes.ad}>
                 광고삽입칸
             </div>
-            <div>{resultmbti.result}</div>
+            <div className={classes.hide}>{resultmbti.result}</div>
 
         </div>
 
