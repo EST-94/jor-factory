@@ -15,7 +15,7 @@
 
  button {
      display: block;
-     width: 80%;
+     width: 40%;
      color: black;
      height: 50px;
      background-color: pink;
@@ -24,6 +24,7 @@
      cursor: pointer;
      margin: 0 auto;
      margin-top: 3%;
+     text-align: center;
  }
 
  .hide {
@@ -38,4 +39,19 @@
      margin: 0 auto;
      margin-top: 5%;
      text-align: center;
+ }
+
+ .progressbar {
+     width: 80%;
+     height: 1rem;
+     background: rgb(232, 255, 238);
+     border-radius: 2rem;
+     margin: 10% auto;
+ }
+
+ .progress {
+     height: 100%;
+     border-radius: 2rem;
+     background: #6fb88f;
+     transition: width .5s;
  }

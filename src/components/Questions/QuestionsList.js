@@ -4,6 +4,7 @@ import { questionLists } from "../Question/QuestionDummy";
 import { useHistory } from "react-router-dom";
 
 
+
 const Questions = () => {
     const [question, setQuestion] = useState(0);
     const [answer, setAnswer] = useState([]);
@@ -60,8 +61,8 @@ const Questions = () => {
             <button onClick={showNextQuestion}
                 value={questionLists[question].selection[1].value}>
                 {questionLists[question].selection[1].answer}</button>
-            <div className={classes.ad}>
-                광고삽입칸
+            <div className={classes.progressbar}>
+                <div className={classes.progress} style={{ width: `${Math.round((question / 12) * 100)}%` }}></div>
             </div>
             <div className={classes.hide}>{resultmbti.result}</div>
 
@@ -69,4 +70,5 @@ const Questions = () => {
 
     )
 }
+
 export default Questions;
