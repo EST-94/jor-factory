@@ -1,0 +1,27 @@
+#kakao-link-btn {
+    background-color: #EEC50C;
+    border-radius: 10px 10px;
+    width: 80%;
+    height: 50px;
+    border: none;
+    color: rgb(34, 30, 30);
+    margin: 0 auto;
+    cursor: pointer;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#kakao-link-btn p {
+    margin-left: 5%;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+#kakao_btn {
+    width: 8%;
+    border: none;
+    margin-left: 23%;
+    background-color: transparent;
+}

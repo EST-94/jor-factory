@@ -6,8 +6,6 @@ export const MainBox = styled.div`
     height: auto;
     margin: 0 auto;
     width: 500px;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
     max-width: 100%;
     & > img {
         vertical-align: middle;
@@ -17,15 +15,17 @@ export const MainBox = styled.div`
 `
 
 export const MainButton = styled.button`
-    width: 100%;
-    background-color: rgb(241, 119, 139);
+    width: 50%;
+    margin: 0 auto;
+    background-color: #a7727d;
     border: none;
-    font-size: 20px;
-    height: 50px;
+    font-size: 30px;
+    height: 75px;
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
-    margin-top: 3rem;
-    color: white;
-     
+    margin-top: -50%;
+    color: #f9f5e7;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    
 
 `

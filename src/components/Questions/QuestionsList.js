@@ -54,6 +54,9 @@ const Questions = () => {
 
     return (
         <div className={classes.Qsection}>
+            <div className={classes.progressbar}>
+                <div className={classes.progress} style={{ width: `${Math.round((question / 12) * 100)}%` }}></div>
+            </div>
             <h6>{questionLists[question].title}</h6>
             <button onClick={showNextQuestion}
                 value={questionLists[question].selection[0].value}>
@@ -61,9 +64,6 @@ const Questions = () => {
             <button onClick={showNextQuestion}
                 value={questionLists[question].selection[1].value}>
                 {questionLists[question].selection[1].answer}</button>
-            <div className={classes.progressbar}>
-                <div className={classes.progress} style={{ width: `${Math.round((question / 12) * 100)}%` }}></div>
-            </div>
             <div className={classes.hide}>{resultmbti.result}</div>
 
         </div>
