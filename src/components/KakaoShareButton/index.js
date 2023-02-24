@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import './index.css';
 
 const KakaoShareButton = () => {
   useEffect(() => {
@@ -57,9 +58,9 @@ const KakaoShareButton = () => {
   return (
     <div className="kakao-share-button">
       {/* Kakao share button */}
-      <button id="kakao-link-btn">
-        <img src="/icons/kakao.png" alt="kakao-share-icon" />
-      </button>
+      <button id="kakao-link-btn"> <img id="kakao_btn" src="/image/kakao.png" alt="kakao-share-icon" />
+        <p>카카오톡으로 결과 공유하기</p> </button>
+
     </div>
   )
 }
