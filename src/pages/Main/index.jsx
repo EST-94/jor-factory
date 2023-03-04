@@ -11,10 +11,10 @@ const Main = () => {
     return (
         <>
             <MainBox>
-                <img id="start-img" src="/image/메인페이지.jpeg"
+                <img id="start-img" src="/image/메인페이지.jpg"
                     alt="main-img" />
                 <MainButton onClick={onClickBtn}>
-                    테스트 시작하기
+                    내 정체 알아보기
                 </MainButton>
 
             </MainBox>
