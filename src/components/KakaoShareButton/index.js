@@ -58,9 +58,12 @@ const KakaoShareButton = () => {
   return (
     <div className="kakao-share-button">
       {/* Kakao share button */}
-      <button id="kakao-link-btn"> <img id="kakao_btn" src="/image/kakao.png" alt="kakao-share-icon" />
-        <p>카카오톡으로 결과 공유하기</p> </button>
-
+      <button id="kakao-link-btn">
+        <div className="cta">
+         <img id="kakao_btn" src="/image/kakao.png" alt="kakao-share-icon" />
+        <p>카카오톡으로 결과 공유하기</p> 
+        </div>
+        </button>
     </div>
   )
 }

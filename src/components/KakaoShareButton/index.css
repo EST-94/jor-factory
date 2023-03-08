@@ -5,23 +5,23 @@
     height: 50px;
     border: none;
     color: rgb(34, 30, 30);
-    margin: 0 auto;
     cursor: pointer;
     margin-bottom: 5%;
     margin-top: 5%;
+}
+.cta {
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
 }
 
 #kakao-link-btn p {
-    margin-left: 5%;
     font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
 #kakao_btn {
-    width: 8%;
+    width:10%;
+    height:10%;
     border: none;
-    margin-left: 23%;
     background-color: transparent;
 }

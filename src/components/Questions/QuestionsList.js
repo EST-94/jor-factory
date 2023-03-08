@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import classes from "./QuestionsList.module.css";
 import { questionLists } from "../Question/QuestionDummy";
 import { useHistory } from "react-router-dom";
+import imageCompression from "browser-image-compression";
 
 
 
