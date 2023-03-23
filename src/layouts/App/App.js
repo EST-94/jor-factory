@@ -18,7 +18,7 @@ function App() {
       <Switch>
         <Redirect exact path="/" to="/main" />
         <Route exact path="/main" component={Main} />
-        <Route exact path="/test1" component={Test1} />
+        <Route exact path="/test" component={Test1} />
         <Route exact path="/result/:resultmbti" component={Result} />
       </Switch>
 
