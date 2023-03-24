@@ -19,21 +19,20 @@ const KakaoShareButton = () => {
         container: '#kakao-link-btn',
         objectType: 'feed',
         content: {
-          title: '이봐요, 정신이 들어요?',
-          description: '내가.. 도시락 반찬이라구..?',
-          imageUrl: 'https://amilunchbox.netlify.app/image/shareLinkImg.jpg',
-          // imageUrl: 'http://localhost:3000/image/shareLinkImg.jpg',
+          title: process.env.REACT_APP_KAKAO_SHARE_TITLE,
+          description: process.env.REACT_APP_KAKAO_SHARE_DESCRIPTION,
+          imageUrl: process.env.REACT_APP_PREFIX + process.env.REACT_APP_SHAREIMG,
           link: {
-            mobileWebUrl: "https://amilunchbox.netlify.app",
-            webUrl: "https://amilunchbox.netlify.app",
+            mobileWebUrl: process.env.REACT_APP_PREFIX,
+            webUrl: process.env.REACT_APP_PREFIX,
           },
         },
         buttons: [
           {
-            title: '페이지로 이동하기',
+            title: process.env.REACT_APP_KAKAO_SHARE_BTN_TITLE,
             link: {
-              mobileWebUrl: "https://amilunchbox.netlify.app",
-              webUrl: "https://amilunchbox.netlify.app",
+              mobileWebUrl: process.env.REACT_APP_PREFIX,
+              webUrl: process.env.REACT_APP_PREFIX,
             },
           }
         ],
