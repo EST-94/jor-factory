@@ -5,7 +5,7 @@ import { MainBox, MainButton } from "./styles";
 const Main = () => {
 
     const onClickBtn = (e) => {
-        window.location.href = '/test1';
+        window.location.href = '/test';
     }
 
     return (
