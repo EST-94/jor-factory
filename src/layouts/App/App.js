@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch, Redirect } from 'react-router-dom';
-// import Test1 from '../../pages/Test1/index.jsx';
-// import Main from '../../pages/Main/index.jsx';
 import loadable from '@loadable/component';
 
 
