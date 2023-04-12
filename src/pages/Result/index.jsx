@@ -1,9 +1,9 @@
 import React from "react";
+import KakaoAd from "../../components/advertise/kakaoAdfit";
 import { useParams } from 'react-router-dom';
 import ShareButtons from "../../components/ShareButtons";
 import {
-    MainBox, Buttonstartpage, Buttonkakao
-    , Buttons
+    MainBox, Buttonstartpage, Buttons, KakaoAdDisplay
 } from "./styles";
 
 const Result = () => {
@@ -23,6 +23,9 @@ const Result = () => {
                 
                 <ShareButtons />
             </Buttons>
+            <KakaoAdDisplay>
+                <KakaoAd/>
+            </KakaoAdDisplay>
         </MainBox>
 
     );

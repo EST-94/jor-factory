@@ -33,3 +33,8 @@ font-family: 'IBM Plex Sans KR', sans-serif;
 
 `
 
+export const KakaoAdDisplay = styled.div`
+    width: 100%;
+    height: 100px;
+`
+

@@ -1,5 +1,6 @@
 import React from "react";
-import { MainBox, MainButton } from "./styles";
+import { MainBox, MainButton, KakaoAdDisplay } from "./styles";
+import KakaoAd from "../../components/advertise/kakaoAdfit";
 
 
 const Main = () => {
@@ -18,6 +19,10 @@ const Main = () => {
                 </MainButton>
 
             </MainBox>
+
+            <KakaoAdDisplay>
+                <KakaoAd/>
+            </KakaoAdDisplay>
         </>
     )
 }

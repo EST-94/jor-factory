@@ -29,3 +29,8 @@ export const MainButton = styled.button`
     
 
 `
+
+export const KakaoAdDisplay = styled.div`
+    width: 100%;
+    height: 100px;
+`
